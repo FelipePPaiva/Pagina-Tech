@@ -108,8 +108,15 @@ body{
     border-radius: 8px;
 }
 
+.text-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .info-service span{
-    display: block;O
+    display: block;
     font-size: 1.25rem;
     font-weight: bold;
     margin: 16px 16px 8px;
@@ -117,24 +124,23 @@ body{
 
 .info-service p{
     font-size: 0.75rem;
+    line-height: 1.6;
     color: #6d6d6d;
     margin: 1rem;
 }
 
-.info-service button{
-    display: block;
-    vertical-align: baseline;
-    background-color: transparent;
+.info-service a{
     text-transform: uppercase;
+    width:5rem;
+    margin: 10px auto;
     border: 1px solid #6d31ed;
-    padding: 10px;
     color: #6d31ed;
     text-align: center;
-    margin: 8px 16px 16px;
     border-radius: 8px;
     font-size: 0.75rem;
+    padding: 8px 16px;
 }
 .img-service{
-    width:150px;
+    width:160px;
     margin: 16px;
 }
