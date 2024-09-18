@@ -126,14 +126,14 @@ body{
     font-size: 0.75rem;
     line-height: 1.6;
     color: #6d6d6d;
-    margin: 1rem;
+    margin: 0 2rem;
 }
 
 .info-service a{
     text-transform: uppercase;
     text-decoration: none;
     width:5rem;
-    margin: 10px auto;
+    margin: 10px 0.5rem;
     border: 1px solid #6d31ed;
     color: #6d31ed;
     text-align: center;
@@ -141,8 +141,9 @@ body{
     font-size: 0.75rem;
     padding: 8px 16px;
 }
+
 .img-service{
-    width:150px;
+    width:9.37rem;
     margin: 16px;
 }
 
@@ -178,8 +179,8 @@ body{
 }
 
 .user-review img{
-    margin-left: -24px;
-    margin-top: -20px;
+    margin-left: -1.5rem;
+    margin-top: -1.33rem;
 }
 
 .user-content{
@@ -187,3 +188,45 @@ body{
     flex-direction: column;
 }
 
+.section-button{
+    margin: 1.5rem auto 6rem;
+}
+
+.section-button img{
+    padding-right:1rem;
+}
+
+footer{
+    background-color: #fafafbff;
+}
+
+.subscribe{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.subscribe-header{
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center
+}
+
+.subscribe-header span{
+    vertical-align: middle;
+    padding-left: 0.75rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.newsletter{
+    padding-top: 3rem;
+}
+
+.menu-information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-information ul{
+    list-style: none;
+}
