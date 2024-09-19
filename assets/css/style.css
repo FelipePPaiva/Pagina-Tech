@@ -202,7 +202,6 @@ footer{
 
 .subscribe{
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 .subscribe-header{
@@ -219,14 +218,54 @@ footer{
 }
 
 .newsletter{
-    padding-top: 3rem;
+    padding: 3rem;
+}
+
+.newsletter h3{
+    margin-bottom: 0.5rem;
+}
+
+.newsletter input{
+    width: 16.75rem;
+    height: 2.25rem;
+    border: none;
+}
+
+.newsletter input::placeholder{
+    color: #6d6d6d;
+    font-size: 0.875rem;
+    padding: 0.5rem
+}
+
+.newsletter button{
+    width: 7.22rem;
+    height: 2.25rem;
+    border: none;
+    background-color: #6d31edff;
+    color: #fff;
 }
 
 .menu-information{
     display: flex;
-    justify-content: space-around;
+    max-width: 1000px;
+    justify-content: space-evenly;
+    margin: 0 auto 5rem;
 }
 
 .menu-information ul{
     list-style: none;
+}
+
+.menu-information li{
+    padding: 0.75rem 0;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer p a{
+    color: #6d31ed;
+    text-decoration: none;
+    margin: 0 0.25rem;
 }
